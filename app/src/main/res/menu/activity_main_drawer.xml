@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Saint_Petersburg"
+            android:title="Saint Petersburg" />
+        <item
+            android:id="@+id/nav_Moscow"
+            android:title="Moscow" />
+        <item
+            android:id="@+id/nav_custom_location"
+            android:title="Custom Location" />
+
+    </group>
+
+    <item android:title="Show weather">
+
+        <menu>
+            <item
+                android:id="@+id/nav_current_weather"
+                android:title="Current weather" />
+            <item
+                android:id="@+id/nav_three_days_forecast"
+                android:title="3 days forecast" />
+
+            <item
+                android:id="@+id/nav_week_forecast"
+                android:title="week forecast"/>
+        </menu>
+    </item>
+
+</menu>
